@@ -61,8 +61,8 @@ const siteConfig: SiteConfig = {
         alt: 'SynoSys (Dark)'
     },
     website: 'https://dirkbrockmann.github.io/',
-    base: '/complex-systems-course/',
-    title: 'Introduction to Complex Systems',
+    base: '/complex-systems-msc-ws25/',
+    title: 'Introduction to Complex Systems in Biology (and Beyond)',
     author: {
         name: 'Dirk Brockmann',
         image: {
@@ -71,7 +71,7 @@ const siteConfig: SiteConfig = {
         },
         url: 'https://synosys.github.io'
     },
-    subtitle: 'Module M0500-31W20, WiSe 2025/25',
+    subtitle: 'part of M0500-61P05 Systems Biology and Genomics - WiSe 2025/26',
     description: '',
     image: {
         src: complexityImg.src,
@@ -91,10 +91,10 @@ const siteConfig: SiteConfig = {
             text: 'Seminar',
             href: '/seminar'
         },
-        {
-            text: 'Lab Course',
-            href: '/lab'
-        },
+        // {
+        //     text: 'Lab Course',
+        //     href: '/lab'
+        // },
         {
             text: 'Tutorials',
             href: '/tutorials'
